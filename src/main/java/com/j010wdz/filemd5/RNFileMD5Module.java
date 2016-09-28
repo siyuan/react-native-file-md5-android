@@ -30,7 +30,7 @@ public class RNFileMD5Module extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    protected void getFileMD5(final String filePath, Promise promise) {
+    public void getFileMD5(final String filePath, Promise promise) {
 
         this.promise = promise;
 
